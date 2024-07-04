@@ -1,15 +1,16 @@
 import styles from './Menu.module.css'
+import MenuLink from '../MenuLink';
 
-export default function Menu () {
+export default function Menu() {
     return (
         <header>
             <nav className={styles.navegacao}>
-                <a className={styles.link} href='/'>
+                <MenuLink to="/">
                     Início
-                </a>
-                <a className={styles.link} href='/sobre'>
+                </MenuLink>
+                <MenuLink to="/sobre">
                     Sobre mim
-                </a>
+                </MenuLink>
             </nav>
         </header>
     );

@@ -3,9 +3,7 @@ import Inicio from "./paginas/Inicio";
 import SobreMim from "./paginas/SobreMim";
 import Menu from "./componentes/Menu/indes";
 
-
-
-function App() {
+export default function AppRoutes() {
   return (
     <BrowserRouter>
       <Menu/>
@@ -17,5 +15,3 @@ function App() {
     </BrowserRouter>
   );
 }
-
-export default App;
