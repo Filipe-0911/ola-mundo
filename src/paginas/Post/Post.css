@@ -10,6 +10,13 @@
     font-size: 2.5rem;
 }
 
+.div-posts-recomendados {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 0;
+    justify-content: center;
+}
+
 .post-markdown-container h4 {
     margin-bottom: 1.5rem;
     font-size: 2rem;
