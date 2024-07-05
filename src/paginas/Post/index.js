@@ -10,15 +10,12 @@ import PostCard from "componentes/PostCard";
 export default function Post() {
     const parametros = useParams();
     const post = posts.find(post => post.id === +parametros.id);
-
-    console.log(posts)
     const postsRecomendados = posts.filter(post => post.id !== + parametros.id)
         .sort(post => {
             return post.id > +parametros.id ? -1 : post.id < +parametros.id ? 1 : 0
         })
         .slice(3);
-    console.log(postsRecomendados)
-
+    
     if (!post) return <NaoEncontrada />
     return (
         <Routes>
