@@ -24,7 +24,7 @@
 .posts-recomendados {
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1.5em;
     margin: 5rem 0;
     justify-content: center;
 }
