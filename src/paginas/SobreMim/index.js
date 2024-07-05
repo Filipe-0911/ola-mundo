@@ -29,7 +29,7 @@ export default function Sobre() {
                 Atualmente curso Análise e desenvolvimento de Sistemas na Gran Faculdade, e estou concluindo cursos de programação na Alura para complementar minhas experiências e adquirir mais conhecimentos no universo de tecnologia. Estou cursando o 4º semestre e me formo no fim do primeiro semestre de 2025.
             </p>
             <p className={styles.paragrafo}>
-                Desde então, tem sido aprenas aprendizados atrás de aprendizados. Desenvolvi alguns projetos nas linguagens Python, Java, Javascript HTML e CSS. Meu foco atual está em Java com o framework Spring boot, porém, para ser um dev Fullstack, estou aprimorando meus conhecimentos em React.
+                Desde então, tem sido apenas aprendizados atrás de aprendizados. Desenvolvi alguns projetos nas linguagens Python, Java, Javascript HTML e CSS. Meu foco atual está em Java com o framework Spring boot, porém, para ser um dev Fullstack, estou aprimorando meus conhecimentos em React.
             </p>
             <p className={styles.paragrafo}>
                 Possuo conhecimentos em: Python, Django; HTML, CSS, Javascript, React e NodeJs (Express, Sequelize); Java e Spring boot (Spring security, Spring Web, Spring Data JPA); MySQL, SQL(DML, DDL, DQL, DTL, DCL). 
