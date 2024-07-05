@@ -14,7 +14,7 @@ export default function Post() {
     console.log(posts)
     const postsRecomendados = posts.filter(post => post.id !== + parametros.id)
         .sort(post => {
-            return post.id > +parametros.id ? -1 : post.id < +parametros.id? 1 : 0
+            return post.id > +parametros.id ? -1 : post.id < +parametros.id ? 1 : 0
         })
         .slice(3);
     console.log(postsRecomendados)
@@ -34,7 +34,10 @@ export default function Post() {
                             </ReactMarkDown>
                         </div>
                         <div className="div-posts-recomendados">
-                            {postsRecomendados.map((post, index) => <PostCard key={index} post={post} />)}
+                            <h2 className="titulo-div-posts-recomendados">Posts recomendados</h2>
+                            <div className="posts-recomendados">
+                                {postsRecomendados.map((post, index) => <PostCard key={index} post={post} />)}
+                            </div>
                         </div>
                     </PostModelo>
                 } />
